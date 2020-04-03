@@ -1,0 +1,12 @@
+body {
+    overflow-x: hidden;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    font-family: cursive;
+    background-color: #fff;
+}

@@ -1,0 +1,38 @@
+
+.wrPromo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    font-family: cursive;
+    color: #A48B8B;
+}
+
+.wrPromo .container {
+    max-width: 1200px;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.image {
+    border: 3px dashed #A48B8B;
+    padding: 10px;
+}
+.avatar {
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+

@@ -1,0 +1,55 @@
+.wrFreelance {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    font-family: cursive;
+    background-color: #fff;
+    color: #A48B8B;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container h1::after {
+    content: ' ';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #929292;
+    margin: 30px auto 40px;
+    position: relative;
+}
+
+button {
+    border-radius: 30px;
+    border: 2px dotted #A48B8B;
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    color: #A48B8B;
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-image: linear-gradient(360deg, rgba(250, 235, 215, 0.5) 0%, rgba(243, 129, 129, 0.9) 100%);
+
+}
+
+.container a:hover{
+    color: #fff;
+}
+a {
+    cursor: pointer;
+    color: #A48B8B;
+}
+
