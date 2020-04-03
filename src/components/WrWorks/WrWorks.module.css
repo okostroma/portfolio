@@ -53,13 +53,14 @@
 
 }
 
+
 .work {
     font-size: 18px;
     position: relative;
 }
 
 .item {
-    background-image: linear-gradient(360deg, rgba(250, 235, 215, 0.5) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-image: linear-gradient(360deg, rgba(250, 235, 215, 0.4) 0%, rgba(243, 129, 129, 0.9) 100%);
 }
 
 
@@ -72,7 +73,7 @@
     content: 'MORE';
     display: block;
     position: absolute;
-    top: 230px;
+    top: 240px;
     color: #fff;
     font-weight: bolder;
 }
@@ -85,5 +86,6 @@
     color: #A48B8B;
     max-width: 60%;
     text-align: center;
+    top: 170px;
 
 }

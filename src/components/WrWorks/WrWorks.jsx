@@ -12,11 +12,13 @@ const WrWorks = () => {
                     <div className={classes.work}>
                         <div className={classes.item}>
                             <a href="#"><img src={grid}/></a>
+                            <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                     <div className={classes.work}>
                         <div className={classes.item}>
                             <a href="#"><img src={grid}/></a>
+                            <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                 </div>
