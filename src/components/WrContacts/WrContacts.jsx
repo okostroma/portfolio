@@ -4,7 +4,7 @@ import classes from './WrContacts.module.css'
 
 const WrContacts = () => {
     return (
-        <div className={classes.wrContacts}>
+        <section className={classes.wrContacts}>
             <div className={classes.container}>
                 <h1>Contacts</h1>
                 <form method="POST">
@@ -16,7 +16,7 @@ const WrContacts = () => {
             </div>
 
 
-        </div>
+        </section>
     );
 }
 

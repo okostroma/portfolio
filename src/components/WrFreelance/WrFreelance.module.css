@@ -2,10 +2,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
-    font-family: cursive;
-    background-color: #fff;
-    color: #A48B8B;
+    background-color: rgba(250,235,215,.5 );
+    color: #715858;
     padding-bottom: 50px;
+    font-family: 'Handlee';
+    letter-spacing: 1px;
 }
 
 .container {
@@ -24,7 +25,7 @@
     display: block;
     width: 60px;
     height: 3px;
-    background-color: #929292;
+    background-color: #715858;
     margin: 30px auto 40px;
     position: relative;
 }

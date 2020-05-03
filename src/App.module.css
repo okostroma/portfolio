@@ -1,5 +1,7 @@
 body {
     overflow-x: hidden;
+    font-family: 'Handlee';
+
 }
 
 .App {
@@ -7,6 +9,7 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    font-family: cursive;
+    /*font-family: cursive;*/
+    font-family: 'Handlee';
     background-color: #fff;
 }

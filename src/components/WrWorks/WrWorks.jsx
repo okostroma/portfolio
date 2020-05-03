@@ -5,9 +5,9 @@ import grid from './grid.png'
 
 const WrWorks = () => {
     return (
-        <div className={classes.wrWorks}>
+        <section className={classes.wrWorks}>
             <div className={classes.container}>
-                <h1>My Works</h1>
+                <h2>My Works</h2>
                 <div className={classes.works}>
                     <div className={classes.work}>
                         <div className={classes.item}>
@@ -24,7 +24,7 @@ const WrWorks = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }
 

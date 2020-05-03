@@ -1,9 +1,21 @@
 
 .header {
-    background-color: antiquewhite;
-    border-bottom: 1px solid rgba(164, 139, 139, .2);;
+    border-bottom: 1px solid rgba(113,88,88, 0.3);
     padding-bottom: 5px;
+    /*position: sticky;*/
+    /*top: 0;*/
 }
+/*.headerFixed {*/
+/*    position: fixed;*/
+/*    background-color: #95e1d3;*/
+/*    z-index: 100;*/
+/*    width: 100%;*/
+/*    padding-bottom: 20px;*/
+/*    font-weight: bolder;*/
+/*    -webkit-transition: .4s;*/
+/*    -o-transition: .4s;*/
+/*    transition: .4s;*/
+/*}*/
 header .container {
     display: flex;
     justify-content: space-between;
@@ -41,10 +53,16 @@ header ul {
 }
 
 header nav a {
-    color: #A48B8B;
-    font-size: 14px;
+    color: #715858;
     text-transform: uppercase;
     font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+header nav a:hover {
+    color: #2A2121;
+    text-shadow: 1px 1px 2px #2A2121, 0 0 1em red;
 }
 
 header nav li {
@@ -58,29 +76,29 @@ header nav {
     height: 100%;
 }
 
-.containerNav .link {
-    position: relative;
-}
+/*.containerNav .link {*/
+/*    position: relative;*/
+/*}*/
 
-.containerNav .link:hover {
-    color: #fce38a;
-}
+/*.containerNav .link:hover {*/
+/*    color: #fff;*/
+/*}*/
 
-.containerNav .link::after {
-    content: '';
-    display: none;
-    height: 3px;
-    width: 100%;
-    position: absolute;
-    background-color: #fce38a;
-    top: 100%;
-    left: 0px;
-    z-index: 1;
-    margin-top: 5px;
-}
+/*.containerNav .link::after {*/
+/*    content: '';*/
+/*    display: none;*/
+/*    height: 3px;*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    background-color: #fce38a;*/
+/*    top: 100%;*/
+/*    left: 0px;*/
+/*    z-index: 1;*/
+/*    margin-top: 5px;*/
+/*}*/
 
-.containerNav .link:hover::after {
-    display: block;
-}
+/*.containerNav .link:hover::after {*/
+/*    display: block;*/
+/*}*/
 
 

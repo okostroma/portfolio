@@ -1,31 +1,35 @@
 import React from 'react';
 import classes from './WrSkills.module.css'
-import comp from './comp.png'
-import book from './book.png'
-import line from './line.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
+import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
+
 
 const WrSkills = () => {
     return (
         <section className={classes.wrSkills}>
             <div className={classes.container}>
-                <h1>My Skills</h1>
+                <h2>My Skills</h2>
                 <div className={classes.mySkills}>
                     <div className={classes.skill}>
-                       <img src={book}/>
+                        <FontAwesomeIcon icon={faHtml5}/>
+                        <FontAwesomeIcon icon={faCss3Alt}/>
                         <div>
                        <h3>HTML/CSS</h3>
                        <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                     <div className={classes.skill}>
-                        <img src={line}/>
+                        <FontAwesomeIcon icon={faJs}/>
                         <div>
                         <h3>JS</h3>
                         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                     <div className={classes.skill}>
-                        <img src={comp}/>
+                        <FontAwesomeIcon icon={faReact}/>
                         <div>
                         <h3>REACT</h3>
                         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
