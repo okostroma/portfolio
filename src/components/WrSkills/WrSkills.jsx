@@ -9,7 +9,7 @@ import { faCss3Alt } from '@fortawesome/free-brands-svg-icons'
 
 const WrSkills = () => {
     return (
-        <section className={classes.wrSkills}>
+        <section id="section2" className={classes.wrSkills}>
             <div className={classes.container}>
                 <h2>My Skills</h2>
                 <div className={classes.mySkills}>

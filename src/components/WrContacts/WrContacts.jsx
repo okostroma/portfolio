@@ -4,7 +4,7 @@ import classes from './WrContacts.module.css'
 
 const WrContacts = () => {
     return (
-        <section className={classes.wrContacts}>
+        <section id="section4" className={classes.wrContacts}>
             <div className={classes.container}>
                 <h1>Contacts</h1>
                 <form method="POST">

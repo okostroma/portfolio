@@ -5,7 +5,7 @@ import grid from './grid.png'
 
 const WrWorks = () => {
     return (
-        <section className={classes.wrWorks}>
+        <section id="section3" className={classes.wrWorks}>
             <div className={classes.container}>
                 <h2>My Works</h2>
                 <div className={classes.works}>

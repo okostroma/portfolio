@@ -195,6 +195,21 @@ header nav {
         padding: 0;
 
     }
+    .logo {
+        width: 60px;
+        margin-top: 10px;
+        display: block;
+        position: fixed;
+    }
+
+    .header {
+        position: fixed;
+        border-bottom: 1px solid rgba(113, 88, 88, 0.3);
+        padding-bottom: 65px;
+        width: 100%;
+        background-image: linear-gradient(360deg, rgba(243, 129, 129, 0.2) 0%,rgba(250,235,215,.7 )100%);
+        z-index: 1;
+    }
 
 }
 

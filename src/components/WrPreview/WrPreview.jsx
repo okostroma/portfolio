@@ -6,7 +6,7 @@ import WrPromo from "./WrPromo";
 
 const WrPreview = () => {
     return (
-        <section className={classes.wrPreview}>
+        <section id='section1' className={classes.wrPreview}>
             <Header />
             <WrPromo />
         </section>
