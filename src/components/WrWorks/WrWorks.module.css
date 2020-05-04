@@ -92,3 +92,55 @@
     top: 170px;
 
 }
+
+
+@media screen and (max-width: 414px) {
+    .item img {
+        width: 200px;
+    }
+
+    .item {
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .works {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-height: 1024px) and (max-height: 1370px) {
+    .works {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 731px) {
+    .works {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 730px) {
+    .works {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .works {
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media screen and (min-height: 320px) and (max-height: 330px) {
+    .works {
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+

@@ -37,7 +37,7 @@ button {
     background-color: antiquewhite;
     color: #A48B8B;
     font-size: 13px;
-    font-family: cursive;
+    font-family: 'Handlee';
     font-weight: bolder;
 }
 
@@ -52,5 +52,14 @@ button:hover {
 a {
     cursor: pointer;
     color: #A48B8B;
+}
+
+
+@media screen and (max-width: 414px) {
+    .container {
+
+        padding: 5px;
+
+    }
 }
 

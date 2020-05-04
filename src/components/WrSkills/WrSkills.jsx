@@ -14,7 +14,7 @@ const WrSkills = () => {
                 <h2>My Skills</h2>
                 <div className={classes.mySkills}>
                     <div className={classes.skill}>
-                        <FontAwesomeIcon icon={faHtml5}/>
+                        <FontAwesomeIcon icon={faHtml5} />
                         <FontAwesomeIcon icon={faCss3Alt}/>
                         <div>
                        <h3>HTML/CSS</h3>

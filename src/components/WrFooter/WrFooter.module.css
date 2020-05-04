@@ -43,3 +43,16 @@
 .net:not(:last-child) {
     border-right: 1px dotted #A48B8B;
 }
+
+@media screen and (max-width: 414px) {
+    .nets {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .net:not(:last-child) {
+        border-right: none;
+    }
+}
