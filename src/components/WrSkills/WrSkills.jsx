@@ -14,23 +14,22 @@ const WrSkills = () => {
                 <h2>My Skills</h2>
                 <div className={classes.mySkills}>
                     <div className={classes.skill}>
-                        <FontAwesomeIcon icon={faHtml5} />
-                        <FontAwesomeIcon icon={faCss3Alt}/>
-                        <div>
+                        <FontAwesomeIcon icon={faHtml5} className={classes.icon}/>
+                        <div className={classes.title}>
                        <h3>HTML/CSS</h3>
                        <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                     <div className={classes.skill}>
-                        <FontAwesomeIcon icon={faJs}/>
-                        <div>
+                        <FontAwesomeIcon icon={faJs} className={classes.icon}/>
+                        <div className={classes.title}>
                         <h3>JS</h3>
                         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>
                     </div>
                     <div className={classes.skill}>
-                        <FontAwesomeIcon icon={faReact}/>
-                        <div>
+                        <FontAwesomeIcon icon={faReact} className={classes.icon}/>
+                        <div className={classes.title}>
                         <h3>REACT</h3>
                         <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor</p>
                         </div>

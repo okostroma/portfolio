@@ -60,6 +60,7 @@
     align-items: center;
     max-width: 30%;
     position: relative;
+
 }
 
 .skill img {
@@ -72,10 +73,14 @@
     color: #A48B8B;
     opacity: .7;
 }
-.svg-inline--fa {
-    margin-right: 5px;
+.title {
+    margin-right: 15px;
+}
+.icon {
+    font-size: 30px;
     position: absolute;
-    top: 0;
+    left: -40px;
+    top: 18px;
 }
 
 @media screen and (max-width: 414px) {
