@@ -5,6 +5,8 @@ import * as axios from "axios";
 import {connect} from "react-redux";
 import {Input, TextArea} from "../../assets/FormControls";
 import {required} from "../../assets/validators";
+import Swal from 'sweetalert2'
+
 
 
 const WrContacts = (props) => {
@@ -12,6 +14,8 @@ const WrContacts = (props) => {
         axios.post('https://smtp-nodejs-portfolio.herokuapp.com/send', formData)
         props.clearForm()
     }
+
+
     return (
         <section id="section4" className={classes.wrContacts}>
             <div className={classes.container}>
@@ -25,12 +29,21 @@ const WrContacts = (props) => {
 }
 
 const ContactsForm = (props) => {
+
+    const onClick = () => {
+        return Swal.fire(
+            'Message sent!',
+            'Thank you',
+            'success',
+            'Cool'
+        )
+    }
     return (
         <form onSubmit={props.handleSubmit}>
             <Field validate={[required]} name='name' component={Input} placeholder="Name"/>
             <Field validate={[required]} name='email' component={Input} placeholder="E-mail"/>
             <Field validate={[required]} name='message' component={TextArea} placeholder="Your message"/>
-            <button className={classes.submit}> SEND</button>
+            <button onClick={onClick} className={classes.submit}> SEND</button>
         </form>
 
     )
