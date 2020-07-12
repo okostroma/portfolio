@@ -108,6 +108,25 @@
         justify-content: center;
         align-items: center;
     }
+    .work:hover .item img {
+        display: none;
+    }
+
+    .work:hover .item::before {
+        display: none;
+    }
+
+
+    .work:hover .item::after {
+        display: none;
+
+    }
+    .item {
+        background-image: none;
+    }
+    /*.work {*/
+    /*    position: relative;*/
+    /*}*/
 
 }
 

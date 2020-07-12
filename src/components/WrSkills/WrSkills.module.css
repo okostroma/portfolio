@@ -101,4 +101,40 @@
         align-items: center;
         max-width: 100%;
     }
+
+    .icon {
+        left: -10px;
+    }
+    .title {
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 730px) {
+    .icon {
+        left: -10px;
+    }
+
+    .title {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .icon {
+        left: -10px;
+    }
+
+    .title {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-height: 320px) and (max-height: 330px) {
+    .icon {
+        left: -10px;
+    }
+
+    .title {
+        margin-left: 25px;
+    }
 }

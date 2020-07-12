@@ -2,7 +2,7 @@
 .wrPromo {
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15px;
+    padding: 90px 15px 15px;
     /*font-family: cursive;*/
     font-family: 'Handlee';
     color: #715858;
@@ -95,6 +95,7 @@
         font-size: 16px;
         align-items: center;
         margin-bottom: 20px;
+        margin-top: 50px;
     }
 
     .name {
