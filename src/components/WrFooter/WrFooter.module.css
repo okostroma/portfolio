@@ -1,12 +1,15 @@
 .wrFooter {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding-top: 30px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     letter-spacing: 1px;
-    background-color: rgba(250,235,215,.5 );
+    /*background-color: rgba(250,235,215,.5 );*/
     color: #A48B8B;
     padding-bottom: 5px;
+    position: relative;
+    z-index: 0;
+    background-color: #FFF8DC;
 }
 
 .container {

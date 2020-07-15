@@ -1,11 +1,12 @@
 
 .wrPromo {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding: 90px 15px 15px;
     /*font-family: cursive;*/
-    font-family: 'Handlee';
+    font-family: 'Muli';
     color: #715858;
+    position: relative;
 }
 
 .wrPromo .container {
@@ -34,9 +35,7 @@
 .image:hover {
     transform: translate(-10px, -10px);
 }
-/*.image:hover {*/
-/*    transform: translate(-15px, -15px);*/
-/*}*/
+
 .avatar {
     width: 300px;
     position: relative;
@@ -44,7 +43,6 @@
     top: 3px;
     transition: .4s;
 
-    /*position: absolute;*/
 }
 
 .title {
@@ -69,11 +67,11 @@
     content: '';
     display: block;
     width: 110px;
-    height: 10px;
-    background-color: rgba(255,255,255, 0.6);
+    height: 15px;
+    background-color: rgba(255,255,255, 0.7);
     position: absolute;
-    right: 55px;
-    top:8px;
+    right: 70px;
+    top:6px;
     z-index: -1;
 
 }

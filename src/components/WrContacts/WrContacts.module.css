@@ -1,12 +1,24 @@
 .wrContacts {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding-top: 50px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     letter-spacing: 1px;
-    background-image: linear-gradient(360deg, rgba(243, 129, 129, 0.5) 0%,rgba(250,235,215,.7 )100%), url(./im.jpg);
+    /*background-image: linear-gradient(360deg, rgba(243, 129, 129, 0.5) 0%,rgba(250,235,215,.7 )100%), url(./im.jpg);*/
     color: #715858;
     padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    background-color: #F5DEB3;
+}
+.particles{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
 }
 
 .container {
@@ -58,7 +70,7 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-    font-family: 'Handlee';
+    font-family: 'Muli';
     color: #A48B8B;
 }
 
@@ -66,7 +78,7 @@ textarea {
     width: 100px;
     cursor: pointer;
     color: #A48B8B;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     font-size: 13px;
     font-weight: bolder;
 }

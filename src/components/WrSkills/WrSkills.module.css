@@ -1,12 +1,15 @@
 
 .wrSkills {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding-top: 50px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     letter-spacing: 1px;
-    background-color: rgba(250,235,215,.5 );
+    /*background-color: rgba(250,235,215,.5 );*/
     color: #715858;
+    position: relative;
+    z-index: -1;
+    background-color: #FFF8DC;
 }
 
 .container {
@@ -23,7 +26,7 @@
 }
 
 .wrSkills h2 {
-    font-family: 'Handlee';
+    font-family: 'Muli';
     position: relative;
     text-align: center;
     /*font-size: 2em;*/

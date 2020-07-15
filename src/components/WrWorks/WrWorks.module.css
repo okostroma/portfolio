@@ -1,12 +1,15 @@
 .wrWorks {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding-top: 50px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     /*background-color: antiquewhite;*/
-    background-image: linear-gradient(360deg, rgba(250,235,215,.5 )0%, rgba(243, 129, 129, 0.5) 100%), url(./im.jpg);
+    /*background-image: linear-gradient(360deg, rgba(250,235,215,.5 )0%, rgba(243, 129, 129, 0.5) 100%), url(./im.jpg);*/
     color: #715858;
     padding-bottom: 70px;
+    position: relative;
+    z-index: 0;
+    background-color: #F5DEB3;
 }
 
 .container {
@@ -21,9 +24,19 @@
     box-sizing: border-box;
 }
 
+.particles{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 
 .wrWorks h2 {
-    font-family: 'Handlee';
+    font-family: 'Muli';
     letter-spacing: 1px;
     position: relative;
     text-align: center;

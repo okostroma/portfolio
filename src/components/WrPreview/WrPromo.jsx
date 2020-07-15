@@ -10,7 +10,7 @@ const WrPromo = () => {
                 <div className={classes.title}>
                     <h1>Hello!</h1>
                     <p className={classes.head}>My name is <span className={classes.name}>Oxana</span></p>
-                    <p>I am Frontend developer</p>
+                    <p>I am Front-end developer</p>
                 </div>
 
                 <div className={classes.image}>

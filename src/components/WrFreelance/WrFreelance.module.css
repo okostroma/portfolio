@@ -1,12 +1,15 @@
 .wrFreelance {
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     padding-top: 50px;
-    background-color: rgba(250,235,215,.5 );
+    /*background-color: rgba(250,235,215,.5 );*/
     color: #715858;
     padding-bottom: 50px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     letter-spacing: 1px;
+    position: relative;
+    z-index: 0;
+    background-color: #FFF8DC;
 }
 
 .container {
@@ -37,7 +40,7 @@ button {
     background-color: antiquewhite;
     color: #A48B8B;
     font-size: 13px;
-    font-family: 'Handlee';
+    font-family: 'Muli';
     font-weight: bolder;
 }
 

@@ -6,10 +6,16 @@ import WrWorks from "./components/WrWorks/WrWorks";
 import WrFreelance from "./components/WrFreelance/WrFreelance";
 import WrContacts from "./components/WrContacts/WrContacts";
 import WrFooter from "./components/WrFooter/WrFooter";
+import Particles from 'react-particles-js';
+
 
 const App = () => {
+
+
     return (
         <div className="App">
+            {/*<Particles className='particles' params={particleOpt}/>*/}
+
             <WrPreview />
             <WrSkills />
             <WrWorks />
