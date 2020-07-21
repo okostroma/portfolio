@@ -8,7 +8,7 @@
     color: #715858;
     padding-bottom: 70px;
     position: relative;
-    z-index: 2;
+    z-index: 0;
     background-color: #F5DEB3;
 }
 
@@ -26,6 +26,8 @@
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    z-index: 0;
+
 }
 
 .particles {
