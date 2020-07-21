@@ -8,10 +8,10 @@ const WrFooter = () => {
             <div className={classes.container}>
                 <h3>Kostroma Oxana</h3>
                 <div className={classes.nets}>
-                    <div className={classes.net}><a className={classes.social} href="#">INSTAGRAM</a></div>
-                    <div className={classes.net}><a className={classes.social} href="#">TWITTER</a></div>
-                    <div className={classes.net}><a className={classes.social} href="#">FACEBOOK</a></div>
-                    <div className={classes.net}><a className={classes.social} href="#">PINTEREST</a></div>
+                    <div className={classes.net}><a className={classes.social} href="https://www.instagram.com/oxa.kost/">INSTAGRAM</a></div>
+                    <div className={classes.net}><a className={classes.social} href="https://www.codewars.com/users/okostroma">CODEWARS</a></div>
+                    <div className={classes.net}><a className={classes.social} href="https://www.linkedin.com/in/oxana-kostroma-1b58441ab/">LINKEDIN</a></div>
+                    <div className={classes.net}><a className={classes.social} href="https://github.com/okostroma">GITHUB</a></div>
                 </div>
                 <p>&copy; All rights reserved</p>
 

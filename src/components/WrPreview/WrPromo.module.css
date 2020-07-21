@@ -83,7 +83,9 @@
         align-items: center;
         flex-wrap: nowrap;
         flex-direction: column;
+
     }
+
 
     .avatar {
         width: 170px;
@@ -93,7 +95,7 @@
         font-size: 16px;
         align-items: center;
         margin-bottom: 20px;
-        margin-top: 50px;
+        margin-top: 5px;
     }
 
     .name {
@@ -125,6 +127,7 @@
         margin-top: 90px;
 
     }
+
 }
 
 
@@ -202,8 +205,8 @@
         align-items: center;
         flex-wrap: nowrap;
         flex-direction: row;
-        margin-top: 10px;
-        max-width: 90%;
+        margin-top: 65px;
+        max-width: 95%;
         padding: 0px 80px;
 
     }
@@ -367,8 +370,8 @@
     }
 
     .wrPromo .container {
-        padding: 0px 130px;
-        margin-top: 100px;
+        padding: 100px 130px;
+        /*margin-top: 100px;*/
     }
 }
 
@@ -379,8 +382,8 @@
     }
 
     .wrPromo .container {
-        padding: 0px 90px;
-        margin-top: 20px;
+        padding: 10px 80px;
+        margin-top: 60px;
     }
 
     .avatar {
